@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="..." rel="icon" />
+    <title>film</title>
+</head>
+<body>
+
+    <!--menu-->
+    <header>
+      <!--<nav class="navbar navbar-expand-md navbar-dark fixed-top"> -->
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top">  
+        <div class="container-fluid">
+            <a class="navbar-brand ms-3 d-none d-md-block" href="index.html">
+                <img src="imagens/film-icon.jpg" width="50" height="50" />
+            </a>
+
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse float-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#Style">Styles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#End">End</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Genêros
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Ação e Aventura</a></li>
+                            <li><a class="dropdown-item" href="#">Comédia</a></li>
+                            <li><a class="dropdown-item" href="#">Drama e Romance</a></li>
+                            <li><a class="dropdown-item" href="ficcao.html">Ficção</a></li>
+                            <li><a class="dropdown-item" href="#">Suspense</a></li>
+                            <li><a class="dropdown-item" href="#">Terror</a></li>
+                          </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    </header>
+
+    <!-- TÍTULO -->
+    <h1>EM CARTAZ NOS CINEMAS</h1>
+
+    <!--carousel-->
+    <div class="container">
+      <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="imagens/banner-1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="imagens/banner-2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="imagens/banner-3.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+    </div>
+
+    <!-- meio da página -->
+    <main>
+      <br></br>
+      <h2>Genêros</h2>
+      <!-- gêneros -->
+      <tr>
+      <div class="generos lineBtn">
+        <div class="genCard">
+          <a class="btn btn-outline-light" href="#">Ação e Aventura</a>
+        </div>
+        <div class="genCard">
+          <a class="btn btn-outline-light" href="#">Comédia</a>
+        </div>
+        <div class="genCard">
+          <a class="btn btn-outline-light" href="#">Drama e Romance</a>
+        </div>
+        <div class="genCard">
+          <a class="btn btn-outline-light" href="ficcao.html">Ficção</a>
+        </div>
+        <div class="genCard">
+          <a class="btn btn-outline-light" href="#">Suspense</a>
+        </div>
+        <div class="genCard">
+          <a class="btn btn-outline-light" href="#">Terror</a>
+        </div>
+      </div>
+    </tr>
+
+    <br></br>
+      <!-- destaques -->
+      <h2>Destaques</h2>
+      <div class="destaques lineBtn">
+        <div class="desCard">
+          <img class="pics" src="imagens/gente-grande.jpg" width="170" height="260" />
+        </div>
+        <div class="desCard">
+          <img class="pics" src="imagens/gente-grande.jpg" width="170" height="260" />
+        </div>
+        <div class="desCard">
+          <img class="pics" src="imagens/gente-grande.jpg" width="170" height="260" />
+        </div>
+        <div class="desCard">
+          <img class="pics" src="imagens/gente-grande.jpg" width="170" height="260" />
+        </div>
+        <div class="desCard">
+          <img class="pics" src="imagens/gente-grande.jpg" width="170" height="260" />
+        </div>
+        <div class="desCard">
+          <img class="pics" src="imagens/gente-grande.jpg" width="170" height="260" />
+        </div>
+      </div>
+
+    </main>
+
+    <!-- Filmes em destaque-->
+    <div class="filmDestaque"></div>
+
+      <script src="scripts/bootstrap.min.js"></script>
+      
+</body>
+</html>
