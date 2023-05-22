@@ -54,7 +54,19 @@ h5 {
     color: white;
     text-align: center;
     font-size: 15px; 
-    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+h6 {
+    color: white;
+    text-align: center;
+    font-size: 30px;    
+}
+
+hr {
+    color: #949494;
+    width: 1110px;
+    margin: auto;
 }
 
 
@@ -80,14 +92,6 @@ h5 {
     font-size: 30px;
 }
 
-.lineBtn {
-    border-top: 1px solid #949494;
-}
-
-
-.filmDestaque{
-    height: 100px;
-}
 
 /* PARTE DESTAQUES */
 .destaques {
@@ -124,8 +128,123 @@ h5 {
     transform: translateY(-15px);
     box-shadow: 0 4px 5px #949494;
 }
+.lineBtn {
+    border-top: 1px solid #949494;
+}
 
-/* FOOTER */
+
+/* PARTE Vencedores do Oscar */
+
+.filmesOscar {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-top: 10px;
+}
+
+.filmesOscar .osCard {
+    background-color: #252525;
+    width: 100%;
+    height: 300px;
+    border-radius: 3px;
+    margin-right: 5px;
+    margin-right: 5px;
+    /*margin: auto;*/
+    text-align: center;
+    
+
+}
+
+.pics {
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+
+.filmesOscar .osCard:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 4px 5px #949494;
+}
+
+/* PARTE Assistir em Família */
+
+.emFamilia {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-top: 10px;
+}
+
+.emFamilia .famCard {
+    background-color: #252525;
+    width: 100%;
+    height: 300px;
+    border-radius: 3px;
+    margin-right: 5px;
+    margin-right: 5px;
+    /*margin: auto;*/
+    text-align: center;
+    
+
+}
+
+.pics {
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+
+.emFamilia .famCard:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 4px 5px #949494;
+}
+
+/* FORMULÁRIO */
+form {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 500px;
+    margin: 0 auto;
+    
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: white;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+button {
+    width: 50%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #252525;
+    border-radius: 5px;
+    background-color:  #ffcc3e;    
+    color: #252525;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+/* RODAPÉ */
 .footer {
     background-color:  #ffcc3e;    
     width: 100%;
@@ -136,6 +255,7 @@ h5 {
     font-family: 'Social Circles v1.1';
     text-align: center;
     margin-left: -32px;
+    margin-bottom: -23px;
     
 }
 
@@ -153,8 +273,8 @@ h5 {
     }
 
 .fakeFooter {
-    height: 35px;
- 
+    height: 40px;
+    background-color: black;
 }
 
 

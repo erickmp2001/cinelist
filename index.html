@@ -5,6 +5,7 @@
     <meta charset="utf-8" />
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
+    <script src="scripts/script.js" defer></script> <!-- defer = rodar depois do html -->
     <link href="..." rel="icon" />
     <title>film</title>
 </head>
@@ -26,22 +27,22 @@
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="#Style">Styles</a>
+                            <a class="nav-link" href="#destaques">Explorar</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#End">End</a>
+                            <a class="nav-link" href="#form">Novidades</a>
                         </li>
                         <li class="nav-item dropdown">
                           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Genêros
                           </a>
                           <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Ação e Aventura</a></li>
-                            <li><a class="dropdown-item" href="#">Comédia</a></li>
-                            <li><a class="dropdown-item" href="#">Drama e Romance</a></li>
+                            <li><a class="dropdown-item" href="acao.html">Ação e Aventura</a></li>
+                            <li><a class="dropdown-item" href="comedia.html">Comédia</a></li>
+                            <li><a class="dropdown-item" href="drama.html">Drama e Romance</a></li>
                             <li><a class="dropdown-item" href="ficcao.html">Ficção</a></li>
-                            <li><a class="dropdown-item" href="#">Suspense</a></li>
-                            <li><a class="dropdown-item" href="#">Terror</a></li>
+                            <li><a class="dropdown-item" href="infantil.html">Infantil</a></li>
+                            <li><a class="dropdown-item" href="suspense.html">Suspense e Terror</a></li>
                           </ul>
                         </li>
                     </ul>
@@ -89,33 +90,33 @@
       <br></br>
       <h2>Genêros</h2>
       <!-- gêneros -->
-      <tr>
-      <div class="generos lineBtn">
+
+      <div class="generos">
         <div class="genCard">
-          <a class="btn btn-outline-light" href="#">Ação e Aventura</a>
+          <a class="btn btn-outline-light" href="acao.html">Ação e Aventura</a>
         </div>
         <div class="genCard">
-          <a class="btn btn-outline-light" href="#">Comédia</a>
+          <a class="btn btn-outline-light" href="comedia.html">Comédia</a>
         </div>
         <div class="genCard">
-          <a class="btn btn-outline-light" href="#">Drama e Romance</a>
+          <a class="btn btn-outline-light" href="drama.html">Drama e Romance</a>
         </div>
         <div class="genCard">
           <a class="btn btn-outline-light" href="ficcao.html">Ficção</a>
         </div>
         <div class="genCard">
-          <a class="btn btn-outline-light" href="#">Suspense</a>
+          <a class="btn btn-outline-light" href="infantil.html">Infantil</a>
         </div>
         <div class="genCard">
-          <a class="btn btn-outline-light" href="#">Terror</a>
+          <a class="btn btn-outline-light" href="suspense.html">Suspense e Terror</a>
         </div>
       </div>
-    </tr>
+  
 
-    <br></br>
+    <br id="destaques"></br>
       <!-- destaques -->
       <h2>Destaques</h2>
-      <div class="destaques lineBtn">
+      <div class="destaques">
         <div class="desCard">
           <img class="pics" src="imagens/gente-grande.jpg" width="170" height="260" />
         </div>
@@ -135,13 +136,83 @@
           <img class="pics" src="imagens/gente-grande.jpg" width="170" height="260" />
         </div>
       </div>
+      <br>
+
+      <!-- Vencedores do Oscar -->
+    <h2>Vencedores do Oscar</h2>
+    <div class="filmesOscar ">
+      <div class="osCard">
+        <img class="pics" src="imagens/pantera-negra.jfif" width="170" height="260" />
+      </div>
+      <div class="osCard">
+        <img class="pics" src="imagens/pantera-negra.jfif" width="170" height="260" />
+      </div>
+      <div class="osCard">
+        <img class="pics" src="imagens/pantera-negra.jfif" width="170" height="260" />
+      </div>
+      <div class="osCard">
+        <img class="pics" src="imagens/pantera-negra.jfif" width="170" height="260" />
+      </div>
+      <div class="osCard">
+        <img class="pics" src="imagens/pantera-negra.jfif" width="170" height="260" />
+      </div>
+      <div class="osCard">
+        <img class="pics" src="imagens/pantera-negra.jfif" width="170" height="260" />
+      </div>
+    </div>
+    <br>
+
+    <!-- Assistir em Família -->
+    <h2>Assistir em Família</h2>
+    <div class="emFamilia "> <!-- <div class="emFamilia lineBtn"> -->
+      <div class="famCard">
+        <img class="pics" src="imagens/rei-leao.jpg" width="170" height="260" />
+      </div>
+      <div class="famCard">
+        <img class="pics" src="imagens/rei-leao.jpg" width="170" height="260" />
+      </div>
+      <div class="famCard">
+        <img class="pics" src="imagens/rei-leao.jpg" width="170" height="260" />
+      </div>
+      <div class="famCard">
+        <img class="pics" src="imagens/rei-leao.jpg" width="170" height="260" />
+      </div>
+      <div class="famCard">
+        <img class="pics" src="imagens/rei-leao.jpg" width="170" height="260" />
+      </div>
+      <div class="famCard">
+        <img class="pics" src="imagens/rei-leao.jpg" width="170" height="260" />
+      </div>
+    </div>
 
     </main>
+    <br>
+    
+    <!-- FORMULÁRIO -->
+    <h6>Cadastre-se para receber as principais novidades do cinema</h6>
+    <hr>
+    <br>
+    <form id="form">
+      <label for="name">Nome: </label>
+      <input type="text" id="name">
 
-    <!-- Filmes -->
-    <div class="filmes"></div>
+      <label for="email">E-mail: </label>
+      <input type="email" id="email">
 
+      <label for="genero">Seu gênero de filme preferido: </label>
+      <select name="genero" id="genero">
+        <option value="">Escolha um gênero</option>
+        <option value="acao">Ação e Aventura</option>
+        <option value="comedia">Comédia</option>
+        <option value="drama">Drama e Romance</option>
+        <option value="ficcao">Ficção</option>
+        <option value="infantil">Infantil</option>
+        <option value="suspense">Suspense e Terror</option>
+      </select>
 
+      <button type="submit">Enviar</button>
+    </form>
+    <br>
     <!-- RODAPÉ -->
     <footer>
       <div class="footer">
