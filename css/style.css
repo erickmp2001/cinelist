@@ -40,8 +40,9 @@ h2 {
 }
 
 h3 {
+    color: white;
     text-align: center;
-    padding-top: 25px;
+    font-size: 30px;   
 }
 
 h4 {
@@ -55,12 +56,6 @@ h5 {
     text-align: center;
     font-size: 15px; 
     padding-top: 10px;
-}
-
-h6 {
-    color: white;
-    text-align: center;
-    font-size: 30px;    
 }
 
 hr {
@@ -232,7 +227,7 @@ input, select {
     font-size: 1.1rem;
 }
 
-button {
+.button {
     width: 50%;
     margin: 10px auto;
     padding: 10px;
@@ -242,6 +237,13 @@ button {
     color: #252525;
     font-size: 1.1rem;
     cursor: pointer;
+}
+
+.button:hover {
+    transition: 0.3s;
+    background-color:  white;
+    border: 1px solid #ffcc3e;
+    
 }
 
 /* RODAPÉ */
